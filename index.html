@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistência Técnica | Conserto de Celulares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* RESET MOBILE-FIRST */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* CARD PRINCIPAL */
+        .linktree-card {
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            padding: 30px 25px;
+            text-align: center;
+        }
+
+        /* FOTO DE PERFIL (substitua pela sua) */
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #00b7fd;
+            margin: 0 auto 15px;
+            display: block;
+        }
+
+        /* TEXTO PRINCIPAL */
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        /* LISTA DE LINKS */
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .link-item {
+            display: block;
+            padding: 14px;
+            background: #00b7fd;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 500;
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+        .link-item:hover {
+            background: #0085b9;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(42, 117, 255, 0.2);
+        }
+
+        /* RODAPÉ */
+        .footer {
+            font-size: 12px;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="linktree-card">
+        <!-- FOTO/LOGO (substitua) -->
+        <img src="2.png" class="profile-img" alt="Assistência Técnica">
+
+        <!-- TÍTULO -->
+        <h1 class="title">ModoMobile</h1>
+        <p class="subtitle">Conserto profissional de celulares com garantia</p>
+
+        <!-- LINKS -->
+        <div class="link-list">
+            <a href="https://api.whatsapp.com/send/?phone=5553991656605&text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." class="link-item" target="_blank"><i class="fa-solid fa-user-doctor"></i> Solicitar Orçamento Online
+            </a>
+            <a href="https://wa.me/5511999999999" class="link-item" target="_blank" data-icon="whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://instagram.com/modomobile_" class="link-item" target="_blank" data-icon="instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://alexandredomi.github.io/site-modo-mobile/" class="link-item" target="_blank" data-icon="local"><i class="fa-solid fa-globe"></i> site</a>
+            <a href="https://www.google.com/maps/place/R.+L%C3%B4bo+da+Costa,+1486+-+Centro,+Pelotas+-+RS,+96010-150/@-31.769037,-52.3486615,17z/data=!3m1!4b1!4m6!3m5!1s0x9511b590b9e8efb7:0x82f4e0a6050fd96f!8m2!3d-31.769037!4d-52.3460866!16s%2Fg%2F11nnkz634y?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" class="link-item" target="_blank" data-icon="local"><i class="fa-solid fa-location-dot"></i> Localização</a>
+        </div>
+
+        <!-- RODAPÉ -->
+        <p class="footer">Atendimento em até 1h | Garantia de 90 dias</p>
+    </div>
+</body>
+</html>
